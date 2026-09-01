@@ -2103,6 +2103,31 @@ body.lightbox-open {
 
 /* Living roadmap pages */
 
+.navigation-journey-group {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navigation-journey-group > .navigation-sub-link {
+    display: none;
+}
+
+.navigation-journey-group:hover > .navigation-sub-link,
+.navigation-journey-group:focus-within > .navigation-sub-link,
+body[data-page="development-journey"]
+    .navigation-journey-group
+    > .navigation-sub-link,
+body[data-page="work-in-progress"]
+    .navigation-journey-group
+    > .navigation-sub-link,
+body[data-page="general-ideas"]
+    .navigation-journey-group
+    > .navigation-sub-link {
+    display: flex;
+}
+
 .navigation-link.navigation-sub-link {
     min-height: 34px;
     gap: 10px;
@@ -2417,6 +2442,25 @@ body[data-page="general-ideas"]
 
 .status-list li::marker {
     color: var(--pink);
+}
+
+.project-status-card > .button,
+.project-repository-status {
+    margin-top: 18px;
+}
+
+.project-repository-status {
+    display: inline-flex;
+    min-height: 42px;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px dashed var(--border-bright);
+    border-radius: var(--small-radius);
+    color: var(--subtle);
+    background: rgba(18, 22, 43, 0.45);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.055em;
 }
 
 .roadmap-lane {

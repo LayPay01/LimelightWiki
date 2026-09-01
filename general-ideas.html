@@ -62,27 +62,30 @@
                 aria-label="Documentation">
                 <p class="navigation-label">BEHIND THE CURTAIN</p>
 
-                <a
-                    class="navigation-link"
-                    href="development-journey.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>Development Journey</span>
-                </a>
+                <div class="navigation-journey-group">
+                    <a
+                        class="navigation-link"
+                        href="development-journey.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>Development Journey</span>
+                    </a>
 
-                <a
-                    class="navigation-link navigation-sub-link"
-                    href="work-in-progress.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>Work in Progress</span>
-                </a>
+                    <a
+                        class="navigation-link navigation-sub-link"
+                        href="work-in-progress.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>Work in Progress</span>
+                    </a>
 
-                <a
-                    class="navigation-link navigation-sub-link active"
-                    aria-current="page"
-                    href="general-ideas.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>General Ideas</span>
-                </a>
+                    <a
+                        class="navigation-link navigation-sub-link active"
+                        aria-current="page"
+                        href="general-ideas.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>General Ideas</span>
+                    </a>
+
+                </div>
 
                 <p class="navigation-label">START HERE</p>
 
@@ -341,6 +344,26 @@
                                         <li>Templates and player-friendly validation</li>
                                         <li>Generated-Lua preview and advanced Script view</li>
                                         <li>No second runtime or incompatible visual format</li>
+                                    </ul>
+                                </article>
+
+                                <article class="idea-card">
+                                    <span class="idea-tag status-roadmap">Stagehand diagnostics</span>
+                                    <h3>Cue Monitor</h3>
+                                    <p>
+                                        A read-only developer panel inside Stagehand
+                                        showing the events, action results and delivery
+                                        warnings already passing through its versioned
+                                        API. The direction is approved; implementation
+                                        has not started.
+                                    </p>
+
+                                    <ul class="status-list">
+                                        <li>Chronological event and action timeline</li>
+                                        <li>Pause, clear, search and per-mod filters</li>
+                                        <li>Bounded, redacted payload inspection</li>
+                                        <li>Permission, capability, handler and quota results</li>
+                                        <li>No raw Unreal inspection, memory scanning or ProcessEvent discovery</li>
                                     </ul>
                                 </article>
 

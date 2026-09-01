@@ -62,27 +62,30 @@
                 aria-label="Documentation">
                 <p class="navigation-label">BEHIND THE CURTAIN</p>
 
-                <a
-                    class="navigation-link"
-                    href="development-journey.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>Development Journey</span>
-                </a>
+                <div class="navigation-journey-group">
+                    <a
+                        class="navigation-link"
+                        href="development-journey.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>Development Journey</span>
+                    </a>
 
-                <a
-                    class="navigation-link navigation-sub-link active"
-                    aria-current="page"
-                    href="work-in-progress.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>Work in Progress</span>
-                </a>
+                    <a
+                        class="navigation-link navigation-sub-link active"
+                        aria-current="page"
+                        href="work-in-progress.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>Work in Progress</span>
+                    </a>
 
-                <a
-                    class="navigation-link navigation-sub-link"
-                    href="general-ideas.html">
-                    <span class="navigation-diamond" aria-hidden="true"></span>
-                    <span>General Ideas</span>
-                </a>
+                    <a
+                        class="navigation-link navigation-sub-link"
+                        href="general-ideas.html">
+                        <span class="navigation-diamond" aria-hidden="true"></span>
+                        <span>General Ideas</span>
+                    </a>
+
+                </div>
 
                 <p class="navigation-label">START HERE</p>
 
@@ -327,6 +330,10 @@
                                         <li>Separately installable, capped UE4SS observer now being built</li>
                                         <li>Unconfirmed Stagehand adapter suggestions</li>
                                     </ul>
+
+                                    <span class="project-repository-status">
+                                        REPOSITORY NOT PUBLISHED YET
+                                    </span>
                                 </article>
 
                                 <article class="project-status-card">
@@ -359,6 +366,14 @@
                                         <li>Separate active work from future ideas</li>
                                         <li>Keep shared navigation usable on desktop and mobile</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/LimelightWiki"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW WIKI REPOSITORY
+                                    </a>
                                 </article>
                             </div>
                         </section>
@@ -399,6 +414,14 @@
                                         <li>Harden Live Loader switching and recovery</li>
                                         <li>Keep future systems behind current release work</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Henreh1/Limelight"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW LIMELIGHT REPOSITORY
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
@@ -431,6 +454,14 @@
                                         <li>Updated only when a proven Limelight operation needs it</li>
                                         <li>Not intended as a separate user download</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Henreh1/LimelightNativeBridge"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW BRIDGE REPOSITORY
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
@@ -462,6 +493,14 @@
                                         <li>Maintain profile, shuffle and controller behaviour</li>
                                         <li>Tag Team remains planning only, not an implemented mode</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Henreh1/Limelight"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW PARENT LIMELIGHT REPOSITORY
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
@@ -494,6 +533,14 @@
                                         <li>Stabilise rhythm, audio, effects and frame times</li>
                                         <li>Build Handshake only after normal sessions are dependable</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Henreh1/LimelightMP"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW LIMELIGHTMP REPOSITORY
+                                    </a>
                                 </article>
                             </div>
                         </section>
@@ -533,8 +580,58 @@
                                         <li>Bounded notifications, beat cue and namespaced HUD meter</li>
                                         <li>Permissions, capabilities, dependencies and health report</li>
                                         <li>Good/player-facing Beat detection remains unproven</li>
+                                        <li>Cue Monitor approved as future developer tooling</li>
                                         <li>Choreographer follows after the SDK and script workflow settle</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/Limelight-Stagehand"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW STAGEHAND REPOSITORY
+                                    </a>
+                                </article>
+
+                                <article class="project-status-card">
+                                    <div class="project-status-header">
+                                        <h3>Stagehand Cue Monitor</h3>
+                                        <span class="status-pill status-roadmap">Approved roadmap</span>
+                                    </div>
+
+                                    <p>
+                                        Cue Monitor will be a read-only developer panel
+                                        inside Stagehand's existing workbench. It will
+                                        explain established event and action traffic
+                                        without becoming another runtime or discovery tool.
+                                    </p>
+
+                                    <div class="status-facts">
+                                        <div>
+                                            <small>IMPLEMENTATION</small>
+                                            <strong>NOT STARTED</strong>
+                                        </div>
+                                        <div>
+                                            <small>HOME</small>
+                                            <strong>STAGEHAND WORKBENCH</strong>
+                                        </div>
+                                    </div>
+
+                                    <ul class="status-list">
+                                        <li>Structured, bounded diagnostic records first</li>
+                                        <li>Read-only timeline with pause, search and filters</li>
+                                        <li>Redacted payload and per-mod delivery details later</li>
+                                        <li>Developer mode only and off by default</li>
+                                        <li>Probe discovers unknown behaviour; Cue Monitor explains known Stagehand behaviour</li>
+                                    </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/Limelight-Stagehand/blob/main/docs/CUE_MONITOR.md"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW CUE MONITOR PLAN
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
@@ -567,18 +664,27 @@
                                         <li>Expand streamed recovery only where reconstruction is safe</li>
                                         <li>Keep Legacy Repair as the advanced fallback</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/LimelightArenaKit"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW ARENAKIT REPOSITORY
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
                                     <div class="project-status-header">
-                                        <h3>Model Migrator</h3>
+                                        <h3>Limelight Model Migrator</h3>
                                         <span class="status-pill status-maintenance">Usable tool</span>
                                     </div>
 
                                     <p>
-                                        Model Migrator updates older Charlie replacement
-                                        projects for the current split mesh layout and can
-                                        optionally cook and package a selected mod.
+                                        Limelight Model Migrator updates older Charlie
+                                        replacement projects for the current split mesh
+                                        layout and can optionally cook and package a
+                                        selected mod.
                                     </p>
 
                                     <div class="status-facts">
@@ -598,6 +704,14 @@
                                         <li>Patch-only and patch-plus-package workflows</li>
                                         <li>Backups before migration and packaging changes</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/Limelight-Model-Migrator"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW MODEL MIGRATOR ON GITHUB
+                                    </a>
                                 </article>
 
                                 <article class="project-status-card">
@@ -629,6 +743,14 @@
                                         <li>Canvas, blocks, templates and generated-Lua preview later</li>
                                         <li>Only expose actions backed by proven Stagehand contracts</li>
                                     </ul>
+
+                                    <a
+                                        class="button button-secondary compact-button"
+                                        href="https://github.com/Limelight-Dead-as-Disco-Modding/Limelight-Stagehand/blob/main/docs/ROADMAP.md"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        VIEW STAGEHAND ROADMAP
+                                    </a>
                                 </article>
                             </div>
                         </section>
@@ -659,6 +781,15 @@
                                     Stagehand SDK stability, ArenaKit community project
                                     coverage and real base-mesh loading, plus dependable
                                     full-session multiplayer travel and presentation.
+                                </p>
+                            </div>
+
+                            <div class="roadmap-lane">
+                                <strong>Stagehand tooling</strong>
+                                <p>
+                                    Cue Monitor is approved but not started. Its first
+                                    milestone is a tested diagnostic-record contract;
+                                    the read-only timeline and detailed views follow.
                                 </p>
                             </div>
 
