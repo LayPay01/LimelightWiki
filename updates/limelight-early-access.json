@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "product": "Limelight",
+  "channel": "early-access",
+  "latestVersion": "0.1.0-early-access",
+  "releaseName": "Limelight 0.1.0 Early Access",
+  "releaseUrl": "https://github.com/Henreh1/Limelight/releases/tag/0.1.0-early-access",
+  "downloadUrl": null,
+  "notes": "The first public Early Access release of Limelight."
+}
