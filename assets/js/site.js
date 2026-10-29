@@ -37,7 +37,7 @@ function updateActiveNavigationLink() {
         "arenakit.html": "arenakit",
         "live-loader.html": "live-loader",
         "profiles.html": "profiles",
-        "x19-loader.html": "x19-loader",
+        "xlr8-loader.html": "xlr8-loader",
         "nexus-mods.html": "nexus-mods",
         "multiplayer.html": "multiplayer",
         "development-journey.html": "development-journey",
